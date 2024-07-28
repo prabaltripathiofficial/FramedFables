@@ -106,6 +106,21 @@ font-size: 32px;
 #check:checked ~ .btn_one i{
    opacity: 0;
 }
+.title
+{
+   color : white;
+   width: 36%;
+   position : absolute;
+   top : 35vh;
+   left: 10vw;
+   line-height: 2;
+   font-weight: 800;
+   transition: 0.2s;
+}
+#check:checked ~ .title{
+   opacity: 0;
+}
+
 
 
 
